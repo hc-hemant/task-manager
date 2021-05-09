@@ -1,0 +1,50 @@
+.list-container {
+  width: 20vw;
+  min-width: 230px;
+  height: 100%;
+  border: 1px solid lightgrey;
+  position: relative;
+}
+
+.list-container .list-container__header {
+  height: 5vh;
+  border-bottom: 1px solid lightgrey;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-container .list-container__header .list-container__header__icon {
+  cursor: pointer;
+}
+
+.list-container .list-container__body {
+  height: 70vh;
+  overflow-y: auto;
+}
+
+.list-container .list-container__body .item {
+  margin: 15px 10px;
+}
+
+.list-container__add {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  bottom: 5px;
+  background-color: blueviolet;
+  left: 45%;
+  box-shadow: 0px 0px 2px 1px lightgrey;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-container__form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

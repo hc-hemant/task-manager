@@ -1,0 +1,18 @@
+.button-container {
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  min-width: 100px;
+  border: 1px solid blueviolet;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  color: blueviolet;
+  background-color: transparent;
+}
+
+.button-container.primary {
+  background-color: blueviolet;
+  color: #ffffff;
+}

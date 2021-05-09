@@ -1,0 +1,36 @@
+.board-container {
+  height: 85vh;
+  padding: 10px;
+}
+
+.board-container .toolbar {
+  height: 5vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.board-container .toolbar h3 {
+  cursor: pointer;
+}
+
+.board-container .list-items {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 25px;
+}
+
+.board-container .list-items .list-items__item {
+  margin: 10px 20px;
+  height: 100%;
+}
+
+.board-container__form {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}

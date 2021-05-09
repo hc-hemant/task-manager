@@ -1,0 +1,19 @@
+.card-container {
+  height: 20vh;
+  box-shadow: 0px 0px 2px 1px lightgrey;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: move;
+  background-color: #ffffff;
+}
+
+.card-container .card-container__header {
+  padding: 0 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-container .card-container__header .card-container__header__icon {
+  cursor: pointer;
+}
